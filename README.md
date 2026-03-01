@@ -98,7 +98,7 @@ Or simply download the script file directly.
 Make it executable:
 
 ```bash
-chmod +x linux_security_audit.sh
+chmod +x linux_audit_security.sh
 ```
 
 ---
@@ -108,13 +108,13 @@ chmod +x linux_security_audit.sh
 Run with root privileges:
 
 ```bash
-sudo ./linux_security_audit.sh
+sudo ./linux_audit_security.sh
 ```
 
 Optional: Save output to a file
 
 ```bash
-sudo ./linux_security_audit.sh > audit_report.txt
+sudo ./linux_audit_security.sh > audit_report.txt
 ```
 
 ---
